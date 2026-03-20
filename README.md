@@ -176,14 +176,6 @@ multiagent-insight-engine/
 
 ---
 
-
-## 📬 Contact
-
-Chandrayee Kumar  
-Python Developer | AI/ML Engineer | Data Systems Enthusiast  
-
----
-
 ## 🚀 Future Improvements
 
 - 📊 Advanced analytics dashboards  
@@ -191,3 +183,11 @@ Python Developer | AI/ML Engineer | Data Systems Enthusiast
 - 📈 Real-time data support  
 - 🔍 Explainability layer  
 - 🔗 External API integrations  
+
+
+---
+
+## 📬 Contact
+
+Chandrayee Kumar  
+Python Developer | AI/ML Engineer | Data Systems Enthusiast  
