@@ -1,20 +1,21 @@
-# MultiAgent Insight Engine
+# 🚀 MultiAgent Insight Engine
 
 ### A Multi-Agent AI System for Automated Business Data Analysis
-
-<img src="docs/demo.gif" width="850"/>
-
-</div>
 
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/Python-3.10+-blue?logo=python">
   <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-API-green?logo=fastapi">
   <img alt="Ollama" src="https://img.shields.io/badge/LLM-Ollama-purple">
   <img alt="Multi-Agent" src="https://img.shields.io/badge/Multi--Agent-AI-orange">
-  <img alt="License" src="https://img.shields.io/badge/License-MIT-lightgrey">
 </p>
 
+<div>
+MultiAgent Insight Engine is a modular AI system designed to simulate collaborative problem-solving using multiple intelligent agents. The architecture includes a planner agent to interpret user queries, a data agent to retrieve relevant information, an analysis agent to process and derive insights, and a summarization agent to generate final responses. By decomposing complex tasks into coordinated agent workflows, the system improves accuracy, interpretability, and scalability of AI-driven decision-making. Built with a focus on real-world analytics use cases, it demonstrates advanced concepts in agent orchestration, workflow design, and applied generative AI.
+</div>
+---
+
 ## ✨ Key Features
+
 
 - 🤖 **Multi-Agent Architecture**  
   Separate agents collaborate to solve complex tasks.
@@ -31,50 +32,62 @@
 - 📈 **Traceable Agent Workflow**  
   Transparent reasoning pipeline.
 
-## Project Structure
-```text
-multiagent-insight-engine/
-│
-├── app
-│   ├── agents
-│   │   ├── planner_agent.py
-│   │   ├── data_agent.py
-│   │   ├── analysis_agent.py
-│   │   └── summary_agent.py
-│   ├── workflows
-│   │   └── agent_graph.py
-│   ├── models
-│   │   ├── request_models.py
-│   │   └── response_models.py
-│   └── main.py
-│
-├── data
-│   └── sales_data.csv
-│
-├── tests
-├── requirements.txt
-└── README.md
-```
+---
+
+## 🧭 Why Choose
+
+- Breaks complex problems into coordinated agent workflows  
+- Improves accuracy and interpretability over single LLM systems  
+- Demonstrates real-world AI orchestration design patterns  
+- Combines Data Engineering + AI + Backend APIs  
+- Production-style modular architecture  
+
+---
 
 ## 🏗️ System Architecture
 
 <p align="center">
-  <img src="docs/architecture.png" width="900"/>
+  <img src="readme_docs/multiagent_architecture.gif" width="900"/>
 </p>
 
-## 🔄 Agent Interaction
-
-<p align="center">
-  <img src="docs/agent_interaction.png" width="900"/>
-</p>
+---
 
 ## 🎬 Demo
 
 <p align="center">
-  <img src="docs/demo.gif" width="900"/>
+  <img src="readme_docs/Multiagent_AI_demo.gif" width="900"/>
 </p>
 
-## 🧩 Agents Overview
+---
+
+## ⚡ Quick Start
+
+### Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Run the API
+```bash
+uvicorn app.main:app --reload
+```
+
+### Access API docs
+http://localhost:8000/docs
+
+---
+
+## 🧩 Simple Example
+
+### Request
+POST /analyze
+
+```json
+{
+  "question": "Why did sales drop in March?"
+}
+```
+### 🧩 Agents Overview
 
 | Agent | Responsibility | Output |
 |------|------|------|
@@ -84,36 +97,66 @@ multiagent-insight-engine/
 | Summary Agent | Generates explanation | Final insight |
 
 
-## Quick Start
+### Flow
+1. Planner Agent creates execution plan  
+2. Data Agent loads dataset  
+3. Analysis Agent computes insights  
+4. Summary Agent generates explanation  
 
-Install dependencies:
+---
 
-pip install -r requirements.txt
+## 🗂️ Project Structure
 
-Run the API:
+```
+multiagent-insight-engine/
+│
+├── Dockerfile
+├── README.md
+├── app
+│   ├── agents
+│   │   ├── analysis_agent.py
+│   │   ├── data_agent.py
+│   │   ├── planner_agent.py
+│   │   └── summary_agent.py
+│   ├── main.py
+│   ├── models
+│   │   ├── request_models.py
+│   │   └── response_models.py
+│   ├── services
+│   │   └── ollama_service.py
+│   ├── tools
+│   │   ├── analytics_tools.py
+│   │   ├── data_loader.py
+│   │   └── llm_tools.py
+│   ├── utils
+│   │   └── logger.py
+│   └── workflows
+│       └── agent_graph.py
+├── data
+│   └── sales_data.csv
+├── notebooks
+├── readme_docs
+│   ├── Multiagent_AI_demo.gif
+│   └── multiagent_architecture.gif
+├── requirements.txt
+└── tests
+    └── test_planner.ipynb
+```
 
-uvicorn app.main:app --reload
+---
 
-Open API documentation:
 
-http://localhost:8000/docs
+## 📬 Contact
 
-## Example Request
+Chandrayee Kumar  
+Python Developer | AI/ML Engineer | Data Systems Enthusiast  
 
-POST /analyze
+---
 
-{
-  "question": "Why did sales drop in March?"
-}
+## 🚀 Future Improvements
 
-## Tech Stack
-
-Python  
-FastAPI  
-Pandas  
-Ollama  
-Multi-Agent Architecture
-
-## Author
-
-Chandrayee Kumar
+- 📊 Advanced analytics dashboards  
+- 🧠 Smarter agent orchestration  
+- 📈 Real-time data support  
+- 🔍 Explainability layer  
+- 🔗 External API integrations  
