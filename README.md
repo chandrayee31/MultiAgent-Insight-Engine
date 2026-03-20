@@ -1,42 +1,38 @@
-
 # MultiAgent Insight Engine
 
-A Multi-Agent AI System for Automated Business Data Analysis.
+### A Multi-Agent AI System for Automated Business Data Analysis
 
-## Overview
+<img src="docs/demo.gif" width="850"/>
 
-MultiAgent Insight Engine demonstrates how multiple AI agents collaborate to analyze business datasets and generate insights automatically.
+</div>
 
-Agents collaborate in the following workflow:
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.10+-blue?logo=python">
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-API-green?logo=fastapi">
+  <img alt="Ollama" src="https://img.shields.io/badge/LLM-Ollama-purple">
+  <img alt="Multi-Agent" src="https://img.shields.io/badge/Multi--Agent-AI-orange">
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-lightgrey">
+</p>
 
-User Question
-↓
-Planner Agent
-↓
-Data Agent
-↓
-Analysis Agent
-↓
-Summary Agent
-↓
-Final Business Insight
+## ✨ Key Features
 
-## Agents
+- 🤖 **Multi-Agent Architecture**  
+  Separate agents collaborate to solve complex tasks.
 
-### Planner Agent
-Breaks a user question into structured analysis steps.
+- 📊 **Business Data Analysis**  
+  Automated analysis of structured datasets.
 
-### Data Agent
-Loads datasets and prepares them for analysis.
+- 🧠 **LLM-Powered Insights**  
+  Uses Ollama to generate human-readable explanations.
 
-### Analysis Agent
-Performs statistical analysis such as monthly sales trends and category comparisons.
+- ⚡ **FastAPI Service**  
+  Production-ready API endpoints.
 
-### Summary Agent
-Uses an LLM (Ollama) to generate a human-readable explanation.
+- 📈 **Traceable Agent Workflow**  
+  Transparent reasoning pipeline.
 
 ## Project Structure
-
+```text
 multiagent-insight-engine/
 │
 ├── app
@@ -58,6 +54,35 @@ multiagent-insight-engine/
 ├── tests
 ├── requirements.txt
 └── README.md
+```
+
+## 🏗️ System Architecture
+
+<p align="center">
+  <img src="docs/architecture.png" width="900"/>
+</p>
+
+## 🔄 Agent Interaction
+
+<p align="center">
+  <img src="docs/agent_interaction.png" width="900"/>
+</p>
+
+## 🎬 Demo
+
+<p align="center">
+  <img src="docs/demo.gif" width="900"/>
+</p>
+
+## 🧩 Agents Overview
+
+| Agent | Responsibility | Output |
+|------|------|------|
+| Planner Agent | Creates execution plan | Plan |
+| Data Agent | Loads dataset | DataFrame |
+| Analysis Agent | Performs analysis | Metrics |
+| Summary Agent | Generates explanation | Final insight |
+
 
 ## Quick Start
 
