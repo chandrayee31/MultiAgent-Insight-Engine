@@ -87,6 +87,37 @@ POST /analyze
   "question": "Why did sales drop in March?"
 }
 ```
+### Response
+```json
+{
+  "plan": {
+    "question": "Why did sales drop in March?",
+    "steps": [
+      "load the dataset",
+      "analysis of monthly and category of sales trend",
+      "the main reason for the change",
+      "generate a business friendlt summary"
+    ]
+  },
+  "analysis": {
+    "monthly_sales": {
+      "April": 30600,
+      "February": 28400,
+      "January": 26000,
+      "March": 26400
+    },
+    "category_sales": {
+      "Furniture": 28000,
+      "Office Supplies": 25600,
+      "Technology": 57800
+    },
+    "lowest_sales_month": "January",
+    "highest_sales_month": "April"
+  },
+  "answer": "Based on the analysis, it appears that sales did not experience a significant drop in March. In fact, March sales were relatively consistent with February's sales, with a slight decrease to $26400. This suggests that the sales trend remained stable, with no notable decline in March."
+}
+```
+
 ### 🧩 Agents Overview
 
 | Agent | Responsibility | Output |
