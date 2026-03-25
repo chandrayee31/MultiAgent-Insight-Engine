@@ -47,7 +47,7 @@ MultiAgent Insight Engine is a modular AI system designed to simulate collaborat
 ## 🏗️ System Architecture
 
 <p align="center">
-  <img src="readme_docs/multiagent_architecture.gif" width="900"/>
+  <img src="readme_docs/multiagent_insight_engine.drawio.png" width="900"/>
 </p>
 
 ---
@@ -168,6 +168,7 @@ multiagent-insight-engine/
 ├── notebooks
 ├── readme_docs
 │   ├── Multiagent_AI_demo.gif
+│   ├── multiagent_insight_engine.drawio.png
 │   └── multiagent_architecture.gif
 ├── requirements.txt
 └── tests
