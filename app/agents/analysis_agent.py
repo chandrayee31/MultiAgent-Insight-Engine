@@ -11,4 +11,4 @@ def analysis_agent(df:pd.DataFrame)->dict:
         "category_sales": category_sales.to_dict(),
         "lowest_sales_month": lowest_sales_month,
         "highest_sales_month": highest_sales_month
-    }
+    } 
