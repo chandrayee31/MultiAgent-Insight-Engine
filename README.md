@@ -1,4 +1,4 @@
-# 🚀 MultiAgent Insight Engine
+#  MultiAgent Insight Engine
 
 ### A Multi-Agent AI System for Automated Business Data Analysis
 
@@ -14,27 +14,27 @@ MultiAgent Insight Engine is a modular AI system designed to simulate collaborat
 </div>
 ---
 
-## ✨ Key Features
+##  Key Features
 
 
-- 🤖 **Multi-Agent Architecture**  
+-  **Multi-Agent Architecture**  
   Separate agents collaborate to solve complex tasks.
 
-- 📊 **Business Data Analysis**  
+-  **Business Data Analysis**  
   Automated analysis of structured datasets.
 
-- 🧠 **LLM-Powered Insights**  
+-  **LLM-Powered Insights**  
   Uses Ollama to generate human-readable explanations.
 
-- ⚡ **FastAPI Service**  
+-  **FastAPI Service**  
   Production-ready API endpoints.
 
-- 📈 **Traceable Agent Workflow**  
+-  **Traceable Agent Workflow**  
   Transparent reasoning pipeline.
 
 ---
 
-## 🧭 Why Choose
+##  Why Choose
 
 - Breaks complex problems into coordinated agent workflows  
 - Improves accuracy and interpretability over single LLM systems  
@@ -44,7 +44,7 @@ MultiAgent Insight Engine is a modular AI system designed to simulate collaborat
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 <p align="center">
   <img src="readme_docs/multiagent_insight_engine.drawio.png" width="900"/>
@@ -52,15 +52,15 @@ MultiAgent Insight Engine is a modular AI system designed to simulate collaborat
 
 ---
 
-## 🎬 Demo
-
+##  Demo
+<p>Sreen recording of the application ran on localhost</p>
 <p align="center">
   <img src="readme_docs/Multiagent_AI_demo.gif" width="900"/>
 </p>
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### Install dependencies
 ```bash
@@ -77,7 +77,7 @@ http://localhost:8000/docs
 
 ---
 
-## 🧩 Simple Example
+##  Simple Example
 
 ### Request
 POST /analyze
@@ -118,7 +118,7 @@ POST /analyze
 }
 ```
 
-### 🧩 Agents Overview
+###  Agents Overview
 
 | Agent | Responsibility | Output |
 |------|------|------|
@@ -136,7 +136,7 @@ POST /analyze
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 multiagent-insight-engine/
@@ -177,18 +177,18 @@ multiagent-insight-engine/
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
-- 📊 Advanced analytics dashboards  
-- 🧠 Smarter agent orchestration  
-- 📈 Real-time data support  
-- 🔍 Explainability layer  
-- 🔗 External API integrations  
+-  Advanced analytics dashboards  
+-  Smarter agent orchestration  
+-  Real-time data support  
+-  Explainability layer  
+-  External API integrations  
 
 
 ---
 
-## 📬 Contact
+##  Contact
 
 Chandrayee Kumar  
 Python Developer | AI/ML Engineer | Data Systems Enthusiast  
